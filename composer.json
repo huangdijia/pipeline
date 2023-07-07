@@ -17,7 +17,7 @@
         "psr/container": "^1.0|^2.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.14",
+        "huangdijia/php-coding-standard": "^1.1",
         "phpstan/phpstan": "^0.12"
     },
     "minimum-stability": "dev",

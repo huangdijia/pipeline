@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Hyperf.
+ * This file is part of huangdijia/pipeline.
  *
  * @link     https://github.com/huangdijia/pipeline
  * @document https://github.com/huangdijia/pipeline/blob/main/README.md
- * @contact  huangdijia@gmail.com
+ * @contact  Deeka Wong <huangdijia@gmail.com>
  */
 namespace Huangdijia\Pipeline;
 
@@ -136,7 +136,7 @@ class Pipeline implements PipelineInterface
     /**
      * Get the final piece of the Closure onion.
      *
-     * @return \Closure
+     * @return Closure
      */
     protected function prepareDestination(Closure $destination)
     {
@@ -152,7 +152,7 @@ class Pipeline implements PipelineInterface
     /**
      * Get a Closure that represents a slice of the application onion.
      *
-     * @return \Closure
+     * @return Closure
      */
     protected function carry()
     {
@@ -223,8 +223,8 @@ class Pipeline implements PipelineInterface
     /**
      * Get the container instance.
      *
-     * @throws \RuntimeException
      * @return ContainerInterface
+     * @throws RuntimeException
      */
     protected function getContainer()
     {
@@ -250,8 +250,8 @@ class Pipeline implements PipelineInterface
      * Handle the given exception.
      *
      * @param mixed $passable
-     * @throws \Throwable
      * @return mixed
+     * @throws Throwable
      */
     protected function handleException($passable, Throwable $e)
     {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Hyperf.
+ * This file is part of huangdijia/pipeline.
  *
  * @link     https://github.com/huangdijia/pipeline
  * @document https://github.com/huangdijia/pipeline/blob/main/README.md
- * @contact  huangdijia@gmail.com
+ * @contact  Deeka Wong <huangdijia@gmail.com>
  */
 namespace Huangdijia\Pipeline\Contract;
 
