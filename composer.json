@@ -13,7 +13,7 @@
         }
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=8.0",
         "psr/container": "^1.0|^2.0"
     },
     "require-dev": {
@@ -28,7 +28,7 @@
     },
     "scripts": {
         "test": "phpunit -c phpunit.xml --colors=always",
-        "analyse": "phpstan analyse --memory-limit 1024M -l 0 ./src",
+        "analyse": "phpstan analyse --memory-limit 1024M -l 0",
         "cs-fix": "php-cs-fixer fix $1"
     }
 }
